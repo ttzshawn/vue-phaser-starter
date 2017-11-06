@@ -2,7 +2,8 @@
 #### A project to create games with Vue + Phaser + ES6 + Webpack.
 
 ## Features
-- Vue based
+- Vue based (https://vuejs.org/)
+- Phaser framework (http://www.phaser.io/)
 - Vue Router imported
 - ESLINT with JavaScript AirBnb Style configuration
 - Next generation of Javascript
