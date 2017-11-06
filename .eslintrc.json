@@ -1,0 +1,38 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true
+  },
+  // required to lint *.vue files
+  "plugins": [
+    "html"
+  ],
+  "globals": {
+    "phaser": true
+  },
+  "settings": {
+    "import/core-modules": [
+      "phaser",
+      "pixi",
+      "p2"
+    ]
+  },
+  "rules": {
+    "import/no-unresolved": [
+      2
+    ],
+    "linebreak-style": [
+      2,
+      "windows"
+    ],
+    "semi": [
+      2,
+      "never"
+    ]
+  }
+}
