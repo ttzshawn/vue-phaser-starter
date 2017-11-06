@@ -20,7 +20,7 @@ Navigate into your workspace directory.
 
 Run:
 
-```git clone https://github.com/ttzshawn/vue-phaser-web```
+```git clone https://github.com/ttzshawn/vue-phaser-starter```
 
 ## 2. Install node.js and npm:
 
