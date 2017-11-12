@@ -10,8 +10,6 @@
 <script>
 import Game from '../../game'
 
-window.game = new Game()
-
 export default {
   name: 'home',
   data() {
@@ -19,8 +17,12 @@ export default {
       msg: 'Welcome to Your Vue.js App',
     }
   },
-  created() {},
-  mounted() {},
+  created() {
+    window.game = new Game()
+  },
+  destroyed() {
+    window.game.destroyed()
+  },
   methods: {},
 }
 </script>
