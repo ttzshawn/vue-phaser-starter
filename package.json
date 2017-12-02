@@ -37,6 +37,7 @@
     "webpack": "^3.4.1"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "phaser-ce": "^2.8.3",
     "vue": "^2.5.3",
     "vue-router": "^3.0.1",
