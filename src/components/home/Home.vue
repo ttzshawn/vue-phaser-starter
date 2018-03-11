@@ -21,7 +21,7 @@ export default {
     window.game = new Game()
   },
   destroyed() {
-    window.game.destroyed()
+    window.game.destroy()
   },
   methods: {},
 }
